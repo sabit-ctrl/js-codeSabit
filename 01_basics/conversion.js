@@ -26,3 +26,7 @@ let someInNumber = Number(some)
 console.log(typeof some)//that shows object. what we discussed before 
 console.log(typeof someInNumber)//that shows number but it is undefined to number
 console.log(someInNumber)//that shows 0 what is not
+
+//"33"=>33
+//"33abc"=>NaN
+//true => 1, //false => 0
