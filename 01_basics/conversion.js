@@ -19,4 +19,10 @@ let runInNumber = Number(run)
 console.log(runInNumber )//Output:NaN
 console.log(typeof runInNumber )//Output:number
 
-let 
+let some = null
+
+let someInNumber = Number(some) 
+
+console.log(typeof some)//that shows object. what we discussed before 
+console.log(typeof someInNumber)//that shows number but it is undefined to number
+console.log(someInNumber)//that shows 0 what is not
